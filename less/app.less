@@ -1,3 +1,38 @@
+// Import bootstrap for kicks
 @import 'bootstrap.less';
+
+// Set up resuable variables
+@blue: #00b0cc;
+@blueLight: lighten(@blue, 7%);
+@green: #008d93;
+@grey: #676c6f;
+
+a {
+	color: @blue;
+	transition: color 0.7s;
+
+	&:hover {
+		color: @blueLight;
+		text-decoration: none;
+	}
+}
+
+p {
+	color: @grey;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.front-info-image {
+	float: right;
+	margin: 0 0 0 30px;
+}
+
 @import 'header.less';
+@import 'typo.less';
 @import 'jumbotron.less';
+@import 'nav.less';
+@import 'footer.less';
+@import 'news.less';

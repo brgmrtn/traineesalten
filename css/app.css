@@ -2794,3 +2794,141 @@ input[type="button"].btn-block {
     display: none !important;
   }
 }
+a {
+  color: #00b0cc;
+  -webkit-transition: color 0.7s;
+          transition: color 0.7s;
+}
+a:hover {
+  color: #00cff0;
+  text-decoration: none;
+}
+p {
+  color: #676c6f;
+}
+.bold {
+  font-weight: bold;
+}
+.front-info-image {
+  float: right;
+  margin: 0 0 0 30px;
+}
+#header {
+  margin-top: 50px;
+}
+#secondary-nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 14px 0 0 0;
+  float: right;
+}
+#secondary-nav ul li {
+  float: left;
+  margin-left: 30px;
+  font-size: 1.4em;
+}
+body {
+  font-family: "lft-etica", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+.i {
+  font-family: "lft-etica", sans-serif;
+  font-style: italic;
+  font-weight: 400;
+}
+.b {
+  font-family: "lft-etica", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+}
+h3 {
+  color: #008d93;
+  font-size: 24px;
+  margin: 0 0 22px 0;
+  padding: 0;
+}
+p {
+  font-size: 14px;
+}
+.b-border {
+  border-bottom: 1px solid #00b0cc;
+}
+.h230 {
+  height: 270px;
+  display: block;
+  margin-bottom: 60px;
+}
+@media (max-width: 767px) {
+  .h230 {
+    height: auto;
+    margin-bottom: 30px;
+  }
+}
+#jumbotron {
+  height: 542px;
+  background: #eee;
+  margin: 30px 0 60px 0;
+}
+@media (max-width: 480px) {
+  #jumbotron {
+    height: 250px;
+    margin: 30px 0 30px 0;
+  }
+}
+#nav {
+  margin-bottom: 60px;
+}
+#nav .nav-box {
+  height: 160px;
+}
+@media (max-width: 767px) {
+  #nav .nav-box {
+    height: auto;
+    margin: 0 0 20px 0;
+    padding: 0 0 10px 0;
+  }
+}
+#footer {
+  width: 100%;
+  background: #008d93;
+  padding: 25px 0;
+  color: #fff;
+}
+#footer h4 {
+  color: #fff;
+}
+#footer ul.footer-list {
+  list-style: none;
+  margin: 20px 0 0 0;
+  padding: 0;
+  border-top: 1px solid #fff;
+}
+#footer ul.footer-list li {
+  padding: 5px 0;
+  border-bottom: 1px solid #fff;
+}
+#footer span.contact-title {
+  display: inline-block;
+  width: 60px;
+}
+ul.front-news {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+ul.front-news li {
+  border-bottom: 1px solid #bfebf2;
+  padding: 12px 0;
+}
+ul.front-news li:first-child {
+  padding: 0 0 12px 0;
+}
+ul.front-news li:last-child {
+  border: none;
+}
+ul.front-news span.date {
+  font-weight: normal;
+  width: 90px;
+  display: inline-block;
+}
