@@ -62,24 +62,54 @@
 
 // Design circles
 
-.yellow-circle, .red-circle {
+.yellow-circle, .red-circle, .blue-circle,
+.yellow-circle-top, .red-circle-top, .blue-circle-top {
 	background: @yellow;
 	width: 120px;
 	height: 120px;
 	display: block;
 	border-radius: 60px;
 	position: absolute;
-	top: 170%;
-	left: 40%;
+	top: 152%;
+	left: 47%;
 	z-index: 5;
 }
 
-.red-circle {
+.yellow-circle-top {
+	top: 170px;
+	left: 50%;
+	width: 90px;
+	height: 90px;
+}
+
+.red-circle, .red-circle-top {
 	background: @red;
 	width: 75px;
 	height: 75px;
+	top: 155%;
+	left: 37%;
+}
+
+.red-circle-top {
+	top: 100px;
+	left: 60%;
+	width: 55px;
+	height: 55px;
+}
+
+.blue-circle, .blue-circle-top {
+	background: @blue;
+	width: 40px;
+	height: 40px;
 	top: 174%;
-	left: 33%;
+	left: 41%;
+}
+
+.blue-circle-top {
+	top: 60px;
+	left: 54%;
+	width: 32px;
+	height: 32px;
 }
 
 @media (max-width: 910px) {
