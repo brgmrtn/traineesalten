@@ -8,19 +8,27 @@
 
 	}
 
-	a.nav-button {
+	a.nav-button, a.nav-selected {
 		height: auto;
 		display: block;
 		color: @green;
 		font-size: 18px;
 		padding: 0 0 20px 0;
 		border-bottom: 1px solid @blue;
-		transition: color 0.7s;
+		transition: color 0.3s, border-bottom 0.3s;
 
 		&:hover {
-			color: lighten(@green, 10%);
+			color: @greenLight;
+			border-bottom: 1px solid @blueLight;
 		}
 	}
+
+	a.nav-selected {
+		color: @greenLight;
+		border-bottom: 1px solid @blueLight;
+	}
+
+
 }
 
 

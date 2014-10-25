@@ -3,9 +3,16 @@
 
 // Set up resuable variables
 @blue: #00b0cc;
-@blueLight: lighten(@blue, 7%);
+@blueLight: #7fd7e5;
 @green: #008d93;
+@greenLight: #7fc6c9;
+@superGreen: #06a685;
 @grey: #676c6f;
+@darkGrey: #4a4e4f;
+
+body {
+	color: @darkGrey;
+}
 
 a {
 	color: @blue;
@@ -16,6 +23,11 @@ a {
 		text-decoration: none;
 	}
 }
+
+a.link-green {color: @green}
+a.link-green:hover {color: @greenLight}
+
+.clr {clear: both;}
 
 p {
 	color: @grey;
@@ -50,3 +62,4 @@ p {
 @import 'footer.less';
 @import 'news.less';
 @import 'list.less';
+@import 'circles.less';

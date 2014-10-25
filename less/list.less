@@ -1,8 +1,7 @@
 ul.media-list {
 	list-style: none;
 	padding: 0;
-	margin: 0;
-
+	margin: 0 0 30px 0;
 
 	li {
 		width: 46%;
@@ -10,11 +9,20 @@ ul.media-list {
 		float: left;
 		height: 120px;
 		margin-right: 4%;
+		margin-top: 48px;
+
+		&:nth-child(even) {
+			.media-left {
+				margin-left: 2%;
+			}
+		}
+
 	}
 
 	.media-left {
 		border-right: 1px solid #a4a6a7;
 		height: 120px;
+
 
 		.align-helper {
 			display: inline-block;
@@ -26,4 +34,27 @@ ul.media-list {
 			vertical-align: middle;
 		}
 	}
+
+	.media-right {
+		margin: 0 0 0 10px;
+
+		h2 {
+			font-size: 22px;
+			color: @darkGrey;
+		}
+
+		span.cat-title {
+			display: inline-block;
+			width: 130px;
+			float: left;
+		}
+	}
 }
+
+
+
+/*@media (max-width: 767px) {
+	
+	ul.media-list li {float: none}
+
+}*/
