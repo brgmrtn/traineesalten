@@ -2813,6 +2813,15 @@ p {
   float: right;
   margin: 0 0 0 30px;
 }
+#content {
+  margin-bottom: 60px;
+}
+.fifty-bottom {
+  margin-bottom: 50px;
+}
+.sixty-bottom {
+  margin-bottom: 60px;
+}
 #header {
   margin-top: 50px;
 }
@@ -2842,6 +2851,10 @@ body {
   font-style: normal;
   font-weight: 600;
 }
+h1 {
+  font-weight: bold;
+  color: #008d93;
+}
 h3 {
   color: #008d93;
   font-size: 24px;
@@ -2849,10 +2862,28 @@ h3 {
   padding: 0;
 }
 p {
-  font-size: 14px;
+  line-height: 140%;
+}
+p.two-col {
+  -webkit-column-count: 2;
+     -moz-column-count: 2;
+          column-count: 2;
+  -webkit-column-gap: 40px;
+     -moz-column-gap: 40px;
+          column-gap: 40px;
 }
 .b-border {
   border-bottom: 1px solid #00b0cc;
+}
+.border-bottom-left,
+.border-bottom-right {
+  border-bottom: 1px solid #00b0cc;
+  width: 48%;
+  height: 1px;
+  float: left;
+}
+.border-bottom-right {
+  float: right;
 }
 .h230 {
   height: 270px;
@@ -2870,6 +2901,11 @@ p {
   background: #eee;
   margin: 30px 0 60px 0;
 }
+#jumbotron-small {
+  height: 280px;
+  background: #eee;
+  margin: 30px 0 60px 0;
+}
 @media (max-width: 480px) {
   #jumbotron {
     height: 250px;
@@ -2881,6 +2917,19 @@ p {
 }
 #nav .nav-box {
   height: 160px;
+}
+#nav a.nav-button {
+  height: auto;
+  display: block;
+  color: #008d93;
+  font-size: 18px;
+  padding: 0 0 20px 0;
+  border-bottom: 1px solid #00b0cc;
+  -webkit-transition: color 0.7s;
+          transition: color 0.7s;
+}
+#nav a.nav-button:hover {
+  color: #00bec6;
 }
 @media (max-width: 767px) {
   #nav .nav-box {
@@ -2912,6 +2961,10 @@ p {
   display: inline-block;
   width: 60px;
 }
+.sticky-footer {
+  position: absolute;
+  bottom: 0;
+}
 ul.front-news {
   list-style: none;
   margin: 0;
@@ -2931,4 +2984,28 @@ ul.front-news span.date {
   font-weight: normal;
   width: 90px;
   display: inline-block;
+}
+ul.media-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+ul.media-list li {
+  width: 46%;
+  display: inline-block;
+  float: left;
+  height: 120px;
+  margin-right: 4%;
+}
+ul.media-list .media-left {
+  border-right: 1px solid #a4a6a7;
+  height: 120px;
+}
+ul.media-list .media-left .align-helper {
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
+ul.media-list .media-left img {
+  vertical-align: middle;
 }

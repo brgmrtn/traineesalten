@@ -1,0 +1,1 @@
+$(function(){function o(){var o=$("body").height(),e=$(window).height(),i=$("#footer");e>o?i.addClass("sticky-footer"):i.removeClass("sticky-footer"),console.log("check height")}o(),$(window).resize(o)});

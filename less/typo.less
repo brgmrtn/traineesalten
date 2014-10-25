@@ -17,6 +17,11 @@ body {
 	font-weight: 600;
 }
 
+h1 {
+	font-weight: bold;
+	color: @green;
+}
+
 h3 {
 		color: @green;
 		font-size: 24px;
@@ -27,12 +32,27 @@ h3 {
 
 
 p {
-		font-size: 14px;
+		line-height: 140%;
+}
+
+p.two-col {
+	column-count: 2;
+	column-gap: 40px;
 }
 
 .b-border {
 	border-bottom: 1px solid @blue;
 }
+
+.border-bottom-left, 
+.border-bottom-right {
+	border-bottom: 1px solid @blue;
+	width: 48%;
+	height: 1px;
+	float: left;
+}
+
+.border-bottom-right {float: right;}
 
 .h230 {
 	height: 270px; 
