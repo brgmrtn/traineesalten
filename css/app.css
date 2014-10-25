@@ -3192,3 +3192,58 @@ span.circle-body {
     padding-top: 6%;
   }
 }
+ul.form-breadcrumbs {
+  list-style: none;
+  margin: 0 0 20px 0;
+  padding: 0 0 20px 0;
+  display: block;
+}
+ul.form-breadcrumbs li {
+  float: left;
+  margin-right: 10px;
+  color: #676c6f;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+ul.form-breadcrumbs .selected {
+  color: #008d93;
+}
+.form-container {
+  margin: 0 0 40px 0;
+}
+.form-container input {
+  background: #ebebeb;
+  border: 1px solid #d9d9da;
+  display: block;
+  width: 100%;
+  font-size: 24px;
+  font-weight: 500;
+  text-indent: 10px;
+  padding: 5px;
+  margin: 0 0 20px 0;
+  transition: background 0.3s;
+}
+.form-container input:focus {
+  outline: none;
+  border: 1px solid #008d93;
+  background: #fff;
+}
+.form-container .form-left,
+.form-container .form-right {
+  width: 48%;
+  float: left;
+}
+.form-container .form-right {
+  float: right;
+}
+.form-container .form-left-third {
+  width: 33%;
+  float: left;
+}
+.form-container .form-right-twothird {
+  width: 65%;
+  float: right;
+}
+.form-container .form-vpad {
+  margin-top: 40px;
+}

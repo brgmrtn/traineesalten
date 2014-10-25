@@ -1,0 +1,54 @@
+ul.form-breadcrumbs {
+	list-style: none;
+	margin: 0 0 20px 0;
+	padding: 0 0 20px 0;
+	display: block;
+
+	li {
+		float: left;
+		margin-right: 10px;
+		color: @grey;
+		text-transform: uppercase;
+		font-weight: bold;
+	}
+
+	.selected {
+		color: @green;
+	}
+}
+
+.form-container {
+	margin: 0 0 40px 0;
+
+	input {
+		background: #ebebeb;
+		border: 1px solid #d9d9da;
+		display: block;
+		width: 100%;
+		font-size: 24px;
+		font-weight: 500;
+		text-indent: 10px;
+		padding: 5px;
+		margin: 0 0 20px 0;
+		transition: background 0.3s;
+	}
+
+	input:focus {
+		outline: none;
+		border: 1px solid @green;
+		background: #fff;
+	}
+
+	.form-left, .form-right {
+		width: 48%;
+		float: left;
+	}
+
+	.form-right {float: right;}
+
+	.form-left-third {width: 33%; float: left;}
+	.form-right-twothird {width: 65%; float: right;}
+
+	.form-vpad {margin-top: 40px;}
+}
+
