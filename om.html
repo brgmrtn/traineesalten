@@ -68,7 +68,7 @@ Trainee Salten har siden sin oppstart i 2006 omsatt 33 høyt utdannende ungdomme
 				</p>
 			</div>
 			<div class="col-md-6 col-sm-6">
-				<div class="circle-big">
+				<div data-stellar-ratio="0.7" data-stellar-offset-parent="true" class="circle-big">
 					<div class="circle-inner">
 						<h2>Det virker</h2>
 						<span class="circle-body">
@@ -81,7 +81,7 @@ Trainee Salten har siden sin oppstart i 2006 omsatt 33 høyt utdannende ungdomme
 		</div>
 		<div class="row fifty-bottom">
 			<div class="col-md-6 col-sm-6">
-				<div class="circle-small">
+				<div class="circle-small" data-stellar-ratio="2" data-stellar-offset-parent="true">
 					<div class="circle-inner">
 						<span class="big-quote-top">“</span>
 						<span class="big-quote-bottom">”</span>
@@ -118,7 +118,9 @@ For mer informasjon om Nordnorsk lederutvikling se: www.nnl.no
 				</p>
 			</div>
 			<div class="col-md-6 center">
-				<img src="img/om-bilde.png">
+				<div class="circle-img-container" data-stellar-ratio="1.4">
+					<img src="img/om-bilde.png">
+				</div>
 			</div>
 		</div>
 		<div class="row">
@@ -183,6 +185,10 @@ For mer informasjon om Nordnorsk lederutvikling se: www.nnl.no
 	<script src="//use.typekit.net/ajm7ixn.js"></script>
 <script>try{Typekit.load();}catch(e){}</script>
 <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script type="text/javascript" src="js/jquery.stellar-min.js"></script>
 <script type="text/javascript" src="js/app-min.js"></script>
+<script type="text/javascript">
+	$(function() {$.stellar({horizontalScrolling: false});})
+</script>
 </body>
 </html>
