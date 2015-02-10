@@ -3,7 +3,7 @@
 	display: block;
 	width: 500px;
 	height: 500px;
-	margin: 120px auto 0 auto;
+	margin: 0px auto 0 auto;
 	border-radius: 250px;
 	text-align: center;
 	position: relative;
@@ -29,7 +29,7 @@
 	height: 370px;
 	border-radius: 185px;
 	text-align: center;
-	margin: 100px 0 0 0;
+	margin: 0px 0 0 0;
 	position: relative;
 
 	.circle-inner {
@@ -67,21 +67,26 @@
 
 @media (max-width: 910px) {
 	
-	.circle-big {
-		width: 350px;
-		height: 350px;
-
-		h2 {
-			font-size: 28px;
-		}
-
-		span.circle-body {
-			font-size: 14px;
-		}
+	.circle-big, .circle-small, .circle-inner, .circle-img-container {
+		display: none;
 	}
 
-	.circle-inner {
-		padding-top: 6%;
-	}
+
+	// .circle-big {
+	// 	width: 350px;
+	// 	height: 350px;
+
+	// 	h2 {
+	// 		font-size: 28px;
+	// 	}
+
+	// 	span.circle-body {
+	// 		font-size: 14px;
+	// 	}
+	// }
+
+	// .circle-inner {
+	// 	padding-top: 6%;
+	// }
 
 }
